@@ -1,0 +1,164 @@
+
+body{
+   display: flex;
+    flex-direction:column;
+    background-color:#3DBEFF;
+   margin: 0px;
+   padding: 0px;
+    
+  
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.title{
+    color:#ffffff ;
+    font-size: 2em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.icon-arrow{
+    display: block;
+    margin: 0 auto;
+}
+
+.image-header{
+   
+    background-size: 100%;
+    background-repeat: no-repeat;
+   
+}
+
+.img-transform{
+    background-position: center bottom;
+    background-size: 100%;
+}
+
+.egg-section{
+    display: flex;
+   flex-direction:column;
+   text-align: center;
+background-color: #ffffff;
+}
+
+.img-stand-out{
+    background-position: center bottom;
+    background-size: 100%;
+}
+
+.portaghal-section{
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+
+.Graphic{
+    flex-direction:column;
+   text-align: center;
+   padding-top:350px;
+  background-image: url(images/mobile/image-graphic-design.jpg);
+  background-size: 100%;
+    background-repeat: no-repeat;
+   
+}
+
+.img-photography{
+    background-position: center bottom;
+    background-size: 100%;
+}
+.text-photography{
+    flex-direction:column;
+    text-align: center;
+    background-image: url(images/mobile/image-photography.jpg);
+    background-size: 100%;
+      background-repeat: no-repeat;
+      padding-top:350px;
+      
+}
+
+.logo-sec{
+background-color: #ffffff;
+display: flex;
+    flex-direction:column;
+    text-align: center;
+    
+}
+
+.Client{
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    text-transform: uppercase;
+    color: #afafaf;
+
+}
+
+.img-emily{
+    padding:120px;
+ margin-top: 100px;
+   border-radius: 50%;
+}
+
+.img-thomas{
+    padding:120px;
+    margin-top: 100px;
+      border-radius: 50%;
+}
+
+.img-jennie{
+padding:120px;
+    margin-top: 100px;
+      border-radius: 50%;
+}
+
+.lastpart-section{
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+}
+
+.four-img{
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+}
+
+.mokhtar{
+    display: flex;
+  
+}
+.img-logo{
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    color: #383838;
+    margin: 50px;
+    padding: 50px;
+}
+
+
+
+.menu{
+   padding: 20px;
+   color: #383838;
+   display: inline-block;
+}
+
+.icon-section{
+    padding: 20px;
+    margin-bottom: 40px;
+   justify-content: space-between;
+}
+
+.part-akhar{
+    width: 100%;
+    background-color: rgb(128, 203, 188);
+}
+ 
+
