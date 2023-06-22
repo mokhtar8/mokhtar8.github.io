@@ -166,7 +166,7 @@ padding:120px;
 
 
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 375px) {
     .matne-menu{
     display: flex;  
     color: #ffffff; 
