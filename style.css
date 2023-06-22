@@ -36,6 +36,7 @@ body{
 .img-transform{
     background-position: center bottom;
     background-size: 100%;
+    width: 100%;
 }
 
 .egg-section{
@@ -48,6 +49,7 @@ background-color: #ffffff;
 .img-stand-out{
     background-position: center bottom;
     background-size: 100%;
+    width: 100%;
 }
 
 .portaghal-section{
@@ -63,15 +65,11 @@ background-color: #ffffff;
    text-align: center;
    padding-top:350px;
   background-image: url(images/mobile/image-graphic-design.jpg);
-  background-size: 100%;
+  background-size: 100px;
     background-repeat: no-repeat;
    
 }
 
-.img-photography{
-    background-position: center bottom;
-    background-size: 100%;
-}
 .text-photography{
     flex-direction:column;
     text-align: center;
@@ -161,4 +159,153 @@ padding:120px;
     background-color: rgb(128, 203, 188);
 }
  
+.matne-menu{
+    display: none;
+}
 
+
+
+
+@media screen and (min-width: 400px) {
+    .matne-menu{
+    display: flex;  
+    color: #ffffff; 
+  
+    justify-content:space-around; 
+    }
+
+    span{
+        
+        padding: 5px;
+    }
+
+.Services{
+    display: flex;
+}
+    .Contact{
+background-color: #ffffff;
+color: black;
+border-radius: 40%;
+
+    }
+
+    .img-hamburger{
+        display: none;
+    }
+    /*bakhsh egg*/
+    .egone{
+        display: flex; 
+        flex-direction: row-reverse;
+    .img-transform{
+        background-position: center bottom;
+        background-size: 50%;
+        width: 50%;
+    }
+    .egg-section{
+        display: flex;
+       flex-direction:column;
+       text-align: center;
+    background-color: #ffffff;
+    width:50%;
+    }
+   }
+   /*bakhsh egg*/
+
+   /*bakhsh stand out*/
+   .stand-for-desk{
+    display: flex; 
+  
+    .img-stand-out{
+        background-position: center bottom;
+        background-size: 100%;
+        width: 50%;
+    }
+    
+    .portaghal-section{
+        display: flex;
+        flex-direction:column;
+        text-align: center;
+        background-color: #ffffff;
+        width:50%;
+    }
+ }
+    /*bakhsh stand out*/
+
+     /*bakhsh gilas va porta*/
+     .Graphic-port-for-desk{
+display: flex;
+.Graphic{
+    flex-direction:column;
+   text-align: center;
+   padding-top:350px;
+  background-image: url(images/mobile/image-graphic-design.jpg);
+  background-size: 100%;
+    background-repeat: no-repeat;
+   width: 100%;
+}
+
+.text-photography{
+    flex-direction:column;
+    text-align: center;
+    background-image: url(images/mobile/image-photography.jpg);
+    background-size: 100%;
+      background-repeat: no-repeat;
+      padding-top:350px;
+      width: 100%;
+}
+     }
+     /*bakhsh gilas va porta*/
+
+     /*bakhsh img-3nafar*/
+     .img-3nafar-for-desk{
+     display: flex;
+
+
+     .img-emily{
+        padding:120px;
+     margin-top: 100px;
+       border-radius: 50%;
+    }
+    
+    .img-thomas{
+        padding:120px;
+        margin-top: 100px;
+          border-radius: 50%;
+    }
+    
+    .img-jennie{
+    padding:120px;
+        margin-top: 100px;
+          border-radius: 50%;
+    }
+    
+    .lastpart-section{
+        display: flex;
+        flex-direction:column;
+        text-align: center;
+    }
+     }
+     /*bakhsh img-3nafar*/
+
+     /*bakhsh four-img*/
+     .four-img{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+
+        .mokhtar{
+            display: flex;
+          
+        }
+    }
+    /*bakhsh four-img*/
+
+    .img-logo{
+        display: flex;
+        flex-direction:column;
+        text-align: center;
+        color: #383838;
+        margin: 50px;
+        padding: 50px;
+    }
+}
